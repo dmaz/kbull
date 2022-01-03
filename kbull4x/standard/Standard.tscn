@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dx21503mk4kbv"]
+
+[ext_resource type="Script" path="res://standard/Standard.gd" id="1_iiu61"]
+[ext_resource type="PackedScene" uid="uid://6r8xyypjjkak" path="res://Wall.tscn" id="2_qmepo"]
+
+[node name="Standard" type="Node2D"]
+script = ExtResource( "1_iiu61" )
+
+[node name="Wall" parent="." instance=ExtResource( "2_qmepo" )]
+position = Vector2(330, 435)
+rotation = -0.349066
